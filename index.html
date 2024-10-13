@@ -1,33 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Amazon</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
-   <header>
-    <div class="navbar">
-            <div class="logo border">
-                <img src="img/amazon_PNG11.png" alt="">
-        </div>
-          <div class="location">  <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navBar">
+        <div class="navLogo border"></div>
+        <div class="navAddress border">
+          <p class="para">Deliver to</p>
+          <div class="locationLogo">
+            <i class="fa-solid fa-location-dot" style="color: #ffffff"></i>
+            <p class="para1">India</p>
           </div>
-           <div class="dlvr">
-            <span class="upper" style="line-height: -100px;">Deliver to</span>
-            <br>
-            <span class="lower">India</span>
         </div>
-        <div class="searchBar">
-            <select >
-                <option value="">All</option>
+
+        <div class="navSearch">
+          <select class="option">
+            <option>All</option>
+          </select>
+          <input type="text" class="input" placeholder="Search Amazon" />
+          <div class="searchSym">
+            <i class="fa-solid fa-magnifying-glass" style="color: #333333"></i>
+          </div>
+        </div>
+
+        <div class="outer border">
+          <div class="language">
+            <div class="flag"></div>
+            <select class="lang">
+              <option>EN</option>
             </select>
-            <input"text" placeholder="Search Amazon">
-            <div class="searchIcon"><i class="fa-solid fa-magnifying-glass"></i></div>
+          </div>
         </div>
+
+        <div class="accounts border">
+          <p class="hello">Hello, Suryansh</p>
+          <select class="List">
+            <option class="accList">Account & lists</option>
+          </select>
+        </div>
+
+        <div class="returns border">
+          <span class="return">Returns</span>
+          <p class="order">& Orders</p>
+        </div>
+
+        <div class="cart border">
+          <i class="fa-solid fa-cart-shopping" style="color: #ffffff"></i>
+          <span class="writeC">Cart</span>
+        </div>
+      </div>
+
+      <div class="taskBar">
+        <div class="all border">
+          <i class="fa-solid fa-bars" style="color: #ffffff"></i>
+          <span>All</span>
+        </div>
+
+        <div class="deals border">
+          <span>Today's Deals</span>
+        </div>
+
+        <div class="deals border">
+          <span>Buy Again</span>
+        </div>
+
+        <div class="deals border">
+          <span>Customer Service</span>
+        </div>
+
+        <div class="deals border">
+          <span>Registry</span>
+        </div>
+
+        <div class="deals border">
+          <span>Gift Cards</span>
+        </div>
+
+        <div class="deals border">
+          <span>Sell</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="heroBody"></div>
+    <div class="sec1">
+      <div class="F Box">
+        <p class="boxtxt">Home décor under $50</p>
+        <div class="photo"><img src="./img/decor.jpg" alt="" /></div>
+        <p class="btmtxt">Shop now</p>
+      </div>
+
+      <div class="S Box">
+        <p class="boxtxt">Refresh your space</p>
+        <div class="Flexc">
+          <div class="pic"><img src="./img/dining.jpg" alt="" /></div>
+          <div class="pic"><img src="./img/clothes.jpg" alt="" /></div>
+        </div>
+
+        <div class="Flexc">
+          <div class="pic"><img src="./img/kitchen.jpg" alt="" /></div>
+          <div class="pic"><img src="./img/beauty.jpg" alt="" /></div>
+        </div>
+        <p class="btmtxt">Discover more</p>
+      </div>
+      <div class="3 Box">
+        <p class="boxtxt">Personal Care under $25</p>
+        <div class="photo1"></div>
+        <p class="btmtxt">See more</p>
+      </div>
+      <div class="4 Box">
+        <p class="boxtxt">Explore more beauty products</p>
+        <div class="Flexc">
+          <div class="pic"><img src="./img/fragrances.jpg" alt="" /></div>
+          <div class="pic"><img src="./img/makeup.jpg" alt="" /></div>
+        </div>
+
+        <div class="Flexc">
+          <div class="pic"><img src="./img/nails.jpg" alt="" /></div>
+          <div class="pic"><img src="./img/skin.jpg" alt="" /></div>
+        </div>
+        <p class="btmtxt">Shop more</p>
+      </div>
     </div>
-   </header>
-</body>
+
+    <div class="sec1" style="margin-top: 0px">
+      <div class="F Box">
+        <p class="boxtxt">Get your game on</p>
+        <div class="photo"><img src="./img/game.jpg" alt="" /></div>
+        <p class="btmtxt">Shop gaming</p>
+      </div>
+
+      <div class="S Box">
+        <p class="boxtxt">Vacation getaway</p>
+        <div class="Flexc">
+          <div class="pic"><img src="./img/swim.jpg" alt="" /></div>
+          <div class="pic"><img src="./img/sandal.jpg" alt="" /></div>
+        </div>
+
+        <div class="Flexc">
+          <div class="pic"><img src="./img/bag.jpg" alt="" /></div>
+          <div class="pic"><img src="./img/lotion.jpg" alt="" /></div>
+        </div>
+        <p class="btmtxt">Shop more</p>
+      </div>
+      <div class="4 Box">
+        <p class="boxtxt">Shop for more home essentials</p>
+        <div class="Flexc">
+          <div class="pic"><img src="./img/hd.jpg" alt="" /></div>
+          <div class="pic"><img src="./img/bedding.jpg" alt="" /></div>
+        </div>
+
+        <div class="Flexc">
+          <div class="pic"><img src="./img/storage.jpg" alt="" /></div>
+          <div class="pic"><img src="./img/bag.jpg" alt="" /></div>
+        </div>
+        <p class="btmtxt">Discover more for home</p>
+      </div>
+
+      <div class="3 Box">
+        <p class="boxtxt">Best selling watches</p>
+        <div class="photo2"></div>
+        <p class="btmtxt">Shop watches</p>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer1">
+        <span>Back to top</span>
+      </div>
+      <div class="footer2">
+        <div class="footTxt">
+          <p class="firstTxt">Get to Know Us</p>
+          <br />
+          <a class="nrmlTxt">Careers</a>
+          <br />
+          <a class="nrmlTxt">Blog</a>
+          <br />
+          <a class="nrmlTxt">About Amazon</a>
+          <br />
+          <a class="nrmlTxt">Investor Relations</a>
+          <br />
+          <a class="nrmlTxt">Amazon Devices</a>
+          <br />
+          <a class="nrmlTxt">Amazon Science</a>
+        </div>
+
+        <div class="footTxt">
+          <p class="firstTxt">Make money with Us</p>
+          <br />
+          <a class="nrmlTxt">Sell products on Amazon</a>
+          <br />
+          <a class="nrmlTxt">Sell on Amazon Business</a>
+          <br />
+          <a class="nrmlTxt">Become an Affiliate</a>
+          <br />
+          <a class="nrmlTxt">Advertise Your Products</a>
+          <br />
+          <a class="nrmlTxt">Self-Publish with Us</a>
+          <br />
+          <a class="nrmlTxt">Host an Amazon Hub</a>
+        </div>
+
+        <div class="footTxt">
+          <p class="firstTxt">Amazon Payment Products</p>
+          <br />
+          <a class="nrmlTxt">Amazon Business Card</a>
+          <br />
+          <a class="nrmlTxt">Shop with Points</a>
+          <br />
+          <a class="nrmlTxt">Reload Your Balance</a>
+          <br />
+          <a class="nrmlTxt">Amazon Currency Converter</a>
+        </div>
+
+        <div class="footTxt">
+          <p class="firstTxt">Let Us Help You</p>
+          <br />
+          <a class="nrmlTxt">Amazon and COVID-19</a>
+          <br />
+          <a class="nrmlTxt">Your Account</a>
+          <br />
+          <a class="nrmlTxt">Your Orders</a>
+          <br />
+          <a class="nrmlTxt">Shipping Rates & Policies</a>
+          <br />
+          <a class="nrmlTxt">Returns & Replacements</a>
+          <br />
+          <a class="nrmlTxt">Manage Your Content and Devices</a>
+          <br />
+          <a class="nrmlTxt">Help</a>
+        </div>
+      </div>
+
+      <div class="footer3">
+        <div class="lstDiv"></div>
+      </div>
+    </footer>
+  </body>
 </html>
